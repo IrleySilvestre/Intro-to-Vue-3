@@ -36,7 +36,7 @@ app.component('review-form', {
                 review: this.review,
                 rating: this.rating
             }
-            this.$emit('review-suybmitted', productReview)
+            this.$emit('review-submitted', productReview)
             this.name = ''
             this.review = ''
             this.rating = null
